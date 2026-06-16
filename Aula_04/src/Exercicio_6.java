@@ -17,5 +17,6 @@ public class Exercicio_6 {
 		if(quantidade != 0)
 			media =  media/quantidade;
 		System.out.printf("A média de todos os números múltiplos de 3 é: %.1f",media);
+		teclado.close();
 	}
 }
