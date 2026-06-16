@@ -6,7 +6,7 @@ public class Exercicio_5 {
 		int preco = 0, produto, quantidade;
 		System.out.println("Código do Produto: ");
 		produto = scanner.nextInt();
-		if(produto < 1 || produto > 7 ) {
+		if(produto < 1 || produto > 6 ) {
 			System.out.println("Código invalido");
 			scanner.close();
 			return;
@@ -38,7 +38,7 @@ public class Exercicio_5 {
 				scanner.close();
 				return;
 		}
-		System.out.printf("Produto: %s", PRODUTOS[produto]);
+		System.out.printf("Produto: %s\n", PRODUTOS[produto]);
 		System.out.printf("Valor total: %d", preco*quantidade);
 		scanner.close();
 	}
