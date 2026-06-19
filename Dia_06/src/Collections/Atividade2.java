@@ -16,7 +16,7 @@ public class Atividade2 {
 	}
 	public static void listar(Set<Integer> numeros) {
 		Iterator<Integer> interagir = numeros.iterator();
-		System.out.println("Numeros: ");
+		System.out.println("Listar dados do Set: ");
 		while(interagir.hasNext()) {
 			System.out.println(interagir.next());
 		}
