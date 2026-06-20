@@ -1,5 +1,6 @@
 package Collections;
 import java.util.*;
+//atividade 3 na verdade
 public class Atividade2 {
 	public static void main(String[] args) {
 		Set<Integer> numeros = new HashSet<Integer>();
